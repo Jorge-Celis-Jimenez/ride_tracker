@@ -19,5 +19,9 @@ public class RideRepositoryImpl implements RideRepository {
 		rides.add(ride);
 		return rides;
 	}
-	
+
+	@Override
+	public Ride createRide(Ride ride) {
+		return null;
+	}
 }
